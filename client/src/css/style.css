@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../accets/fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.placeholder-color::placeholder {
+  color: lightgrey; 
+}
