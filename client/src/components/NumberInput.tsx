@@ -7,7 +7,7 @@ import { InputData } from '../types';
 const NumberInput: React.FC<InputData> = ({ value, onChange }) => {
   return (
     <InputGroup className="mb-3">
-      <InputGroup.Text id="number" style={{ minWidth: '80px', textAlign: 'left' }}>Number</InputGroup.Text>
+      <InputGroup.Text id="number" style={{ minWidth: '80px', textAlign: 'left' }}>Номер</InputGroup.Text>
       <InputMask
         className="form-control placeholder-color"
         mask="99-99-99"
